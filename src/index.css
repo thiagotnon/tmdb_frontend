@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  --color-movie-dark: rgba(38,40,51,1.0);
+  --color-movie-dark-op: rgba(38,40,51,.9);
+  --color-movie-yellow: rgba(255,175,95,1.0);
+  --color-movie-green: rgba(74,207,172,1.0);
+  --color-movie-purple: rgba(126,140,224,1.0);
+  --color-movie-purple-dark: rgb(91, 102, 161);
+  --color-movie-blue: rgba(54,199,208,1.0);
+  --color-movie-orange: rgba(255,164,142,1.0);
+  
+  font-family: 'Poppins', sans-serif;
+}
+
+.jumbotron {
+  background-color: var(--color-movie-dark) !important;
+  border-radius: 0 !important;
+  color: var(--color-movie-purple)!important; 
+}
+.jumbotron h1 {
+  font-weight: 700 !important;
+  
+}
+
+.btn-api{
+  transition: background-color .4s;
+}
+.btn-api:hover{
+  background-color: var(--color-movie-purple-dark) !important;
+}

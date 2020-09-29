@@ -1,0 +1,29 @@
+.actor-card .card-body {
+  position: absolute;
+  bottom: 0;
+
+  background-image: linear-gradient(rgba(0,0,0, 0),rgba(0,0,0, .5), rgba(0,0,0, 1));
+  width: 100%;
+  color: var(--white);
+}
+.box-card-overlay:before {
+  content: '';
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  border-radius: 6px;
+  background-image: linear-gradient(rgba(0,0,0, 0),rgba(0,0,0, .5), rgba(0,0,0, 1));
+}
+.box-card-overlay .card-text:last-child {
+  z-index: 1;
+}
+
+h1 span {
+  font-weight: 100;
+  opacity: .5;
+}
